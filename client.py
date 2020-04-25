@@ -33,7 +33,6 @@ try:
         # (логин адресата)|[логин отправителя]: сообщение,
         # на сервере логин адресата будет обработан отдельно
         s.sendto(message.encode('utf-8'), SERVER)  # сообщение в формате
-        print(message)
         del message
 
 except opponent == 'exit' or data == 'exit':
